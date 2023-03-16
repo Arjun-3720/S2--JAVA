@@ -33,8 +33,8 @@ for(i=0;i<n;i++){
 System.out.println("Sum of elements are:"+sum);
         
 //Max & Min vallues
-System.out.println("Max value is:"+arr[0]);
-System.out.println("Min value is:"+arr[n-1]);
+System.out.println("Max value is:"+arr[n-1]);
+System.out.println("Min value is:"+arr[0]);
         
 //searching an element
 System.out.println("Enter an element to search:");
