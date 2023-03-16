@@ -11,7 +11,8 @@ System.out.println("Enter array elements:");
 for(i=0;i<n;i++){
 arr[i] = input.nextInt();
 }
-//sorting
+        
+//sorting elements
 for(i=0;i<n;i++){
         for(j=i+1;j<n;j++){
            if(arr[i]>arr[j]){
@@ -24,12 +25,14 @@ System.out.println("Array elements are:");
 for(i=0;i<n;i++){
         System.out.print(arr[i]+" ");
 }
+        
 //Sum of elements
 for(i=0;i<n;i++){
          sum = sum+arr[i];
 }
 System.out.println("Sum of elements are:"+sum);
-//Max & Min
+        
+//Max & Min 
 System.out.println("Max value is:"+arr[0]);
 System.out.println("Min value is:"+arr[n-1]);
 //search
