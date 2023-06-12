@@ -1,5 +1,5 @@
 
-# This is a program which is in which the secondary class is written inside the first class
+// This is a program which is in which the secondary class is written inside the first class
   
 
 import java.util.Scanner;
